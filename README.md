@@ -3,7 +3,7 @@
 `npm install`
 
 .env in src/backend/functions and .env in root both need to contain
-````
+```
 SPOTIFY_CLIENT_ID
 SPOTIFY_CLIENT_SECRET
 LOCAL_URL
