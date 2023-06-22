@@ -1,0 +1,56 @@
+{
+  "name": "spotify-profile-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=development webpack serve --config ./webpack.config.dev.cjs",
+    "build": "NODE_ENV=production webpack --config ./webpack.config.prod.cjs"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "axios": "^1.4.0",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "firebase": "^9.22.2",
+    "firebase-functions": "^4.4.1",
+    "fs": "^0.0.1-security",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "js-cookie": "^3.0.5",
+    "js-cookies": "^1.0.4",
+    "mongodb": "^5.6.0",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7",
+    "querystring": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.86.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.5",
+    "css-loader": "^6.8.1",
+    "dotenv-webpack": "^8.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "style-loader": "^3.3.3",
+    "webpack-bundle-analyzer": "^4.9.0",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
